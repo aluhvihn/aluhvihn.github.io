@@ -1,25 +1,39 @@
-body {
-  background-color: lightgrey;
-  font-family: "Helvetica";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+.nav {
+	background-color: #ff3838;
 }
 
-h1 {
-  text-align: center;
-  margin: 0px;
-  padding: 0px;
+.nav a {
+	/*color: #5a5a5a;*/
+	color: #fff;
+  font-family: 'Ubuntu';
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
 }
 
-h2 {
-  margin: 0px;
-  padding: 0px;
+.nav li {
+	display: inline;
 }
 
-h3 {
-  margin: 0px;
-  padding: 0px;
+.jumbotron {
+  background-image:url('banner.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-h4 {
-  margin: 0px;
-  padding: 0px;
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron .container h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  text-align: left;
 }
