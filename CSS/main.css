@@ -1,5 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
+body {
+  background-color: #666666;
+  font-family: 'Ubuntu' !important;
+}
+
 .nav {
   background-color: #ff4D4D;
   height: 40px;
@@ -21,9 +26,9 @@
 
 .nav a {
   color: #fff;
-  font-family: 'Ubuntu';
+  /*font-family: 'Ubuntu';*/
   font-size: 20px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   text-shadow: 1px 1px 8px #330000;
 
   position: relative;
@@ -43,6 +48,18 @@
   transition: border .25s, color .5s, background-color .5s, border-color .5s;
 }
 
+#selected {
+  text-shadow: 1px 1px 10px #000;
+  font-weight: bolder;
+  border-bottom: #FFFFFF 3px solid;
+}
+
+#selected:hover {
+  text-shadow: 1px 1px 10px #fff;
+  font-weight: bolder;
+  border-bottom: #FFFFFF 3px solid;
+}
+
 .jumbotron {
   position: relative;
   top: 40px;
@@ -53,16 +70,37 @@
   background-size: cover;
 }
 
+/*.jumbotron .container {
+  padding: 0px;
+  margin: 0px;
+}*/
+
 .jumbotron .container h1 {
   color: #fff;
   font-size: 48px;  
-  font-family: 'Ubuntu';
+  /*font-family: 'Ubuntu';*/
   font-weight: bold;
   text-align: left;
 }
 
+.banner {
+  position: relative;
+  top: 40px;
+
+  /*font-family: 'Ubuntu';*/
+  text-align: center;
+}
+
+.img_shadow {
+  -webkit-filter: drop-shadow(0px 0px 5px #000);
+  -moz-filter: drop-shadow(5px 5px 5px #000);
+  -o-filter: drop-shadow(5px 5px 5px #000);
+  -ms-filter: drop-shadow(5px 5px 5px #000);
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
 #about {
-  font-family: 'Ubuntu';
+  /*font-family: 'Ubuntu';*/
 }
 
 .rotate90 {
