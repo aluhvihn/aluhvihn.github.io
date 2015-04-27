@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+.nav {
+	background-color: #ff3838;
+}
+
+.nav a {
+	/*color: #5a5a5a;*/
+	color: #fff;
+  font-family: 'Ubuntu';
+	font-size: 11px;
+	font-weight: bold;
+	padding: 14px 10px;
+	text-transform: uppercase;
+}
+
+.nav li {
+	display: inline;
+}
+
+.jumbotron {
+  background-image:url('../images/banner.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron .container h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  text-align: left;
+}
