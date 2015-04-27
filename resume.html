@@ -15,8 +15,13 @@
 
 
 	<body>
+
+    <div id="navigation">
+    <!-- Insert Navigation Bar -->
+    </div>
+
     <!-- NAVIGATION BAR -->
-    <div class="nav">
+    <!-- <div class="nav">
       <div class="container">
         <ul class="pull-left">
           <li><a href="index.html">home</a></li>
@@ -24,14 +29,14 @@
           <li><a href="resume.html" id="selected">resume</a></li>
         </ul>
       </div>
-    </div>
+    </div> -->
 
     <!-- BANNER -->
-    <div class="jumbotron">
+    <!-- <div class="jumbotron">
       <div class="container">
         <h1>Alvin A. Lim</h1>
       </div>
-    </div>
+    </div> -->
 
     <!-- MY RESUME -->
 
@@ -46,4 +51,18 @@
 
   </body>
   
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+
+    $("#navigation").load("navigation.html");
+    
+  }
+  );
+  </script>
+
+
 </html>
