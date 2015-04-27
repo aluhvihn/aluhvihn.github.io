@@ -15,22 +15,8 @@
   
 
   <body>
-    <!-- NAVIGATION BAR -->
-    <div class="nav">
-      <div class="container">
-        <ul class="pull-left">
-          <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about me</a></li>
-          <li><a href="resume.html">resume</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- BANNER -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Alvin A. Lim</h1>
-      </div>
+    <div id="navigation">
+    <!-- Insert Navigation Bar -->
     </div>
 
     <!-- ABOUT CONTENT -->
@@ -51,12 +37,30 @@
       </p>
     </div>
 
-    <hr>
-
-    <div>
-      <!-- TEST IMAGE -->
-      <img src="images/test.jpg" alt="This is a picture." width="1328" height="746" class="rotate90 scale_half" title="image">
+    <!-- NAVIGATION BAR -->
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </div>
     </div>
   </body>  
   
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+  <script>
+  $(document).ready(function() {
+
+    $("#navigation").load("navigation.html");
+    
+  }
+  );
+  </script>
+
+
 </html>

@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+.nav {
+  background-color: #ff4D4D;
+  height: 40px;
+  width: 100%;
+
+  position: fixed;
+  z-index: 2;
+
+  box-shadow: 1px 1px 4px #000000;
+}
+
+.nav ul {
+  padding: 0px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.nav a {
+  color: #fff;
+  font-family: 'Ubuntu';
+  font-size: 20px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 8px #330000;
+
+  position: relative;
+  top: 5px;
+
+  padding: 7px 10px;
+}
+
+.nav li:hover a {
+  /*background-color: #FFCCCC;*/
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 8px #fff;
+
+  border-bottom: #FFFFFF 3px solid;
+
+  transition: border .25s, color .5s, background-color .5s, border-color .5s;
+}
+
+.jumbotron {
+  position: relative;
+  top: 40px;
+
+  background-image:url('../images/banner.png');
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  text-align: left;
+}
+
+#about {
+  font-family: 'Ubuntu';
+}
+
+.rotate90 {
+  -webkit-transform: rotate(90deg); /* Opera, Chrome, Safari */
+  -moz-transform: rotate(90deg);     /* Firefox */
+  -o-transform: rotate(90deg);  /* Opera */
+  -ms-transform: rotate(90deg); /* IE */
+  transform: rotate(90deg);
+}
+
+.rotate180 {
+  -webkit-transform: rotate(180deg); /* Opera, Chrome, Safari */
+  -moz-transform: rotate(180deg);     /* Firefox */
+  -o-transform: rotate(180deg);  /* Opera */
+  -ms-transform: rotate(180deg); /* IE */
+  transform: rotate(180deg);
+}
+
+.scale_half {
+  -webkit-transform: scale(0.5,0.5);
+  -moz-transform: scale(0.5,0.5);
+  -o-transform: scale(0.5,0.5);
+  -ms-transform: scale(0.5,0.5);
+  transform: scale(0.5,0.5);
+}
+
+.rotate90.scale_half {
+  -webkit-transform: rotate(90deg) scale(0.5, 0.5); /* Opera, Chrome, Safari */
+  -moz-transform: rotate(90deg) scale(0.5, 0.5);     /* Firefox */
+  -o-transform: rotate(90deg) scale(0.5, 0.5);  /* Opera */
+  -ms-transform: rotate(90deg) scale(0.5, 0.5); /* IE */
+  transform: rotate(90deg) scale(0.5, 0.5);
+}
