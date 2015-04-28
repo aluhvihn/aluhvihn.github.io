@@ -41,7 +41,7 @@ body {
   color: #fff;
 
   text-decoration: none;
-  text-shadow: 1px 1px 8px #fff;
+  text-shadow: 1px 1px 8px #fff !important;
 
   border-bottom: #FFFFFF 3px solid;
 
