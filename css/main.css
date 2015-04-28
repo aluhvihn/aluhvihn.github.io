@@ -11,7 +11,7 @@ body {
   width: 100%;
 
   position: fixed;
-  z-index: 2;
+  z-index: 10;
 
   box-shadow: 1px 1px 4px #000000;
 }
@@ -48,18 +48,16 @@ body {
   transition: border .25s, color .5s, background-color .5s, border-color .5s;
 }
 
-/*
-#selected {
-  text-shadow: 1px 1px 10px #000;
-  font-weight: bolder;
-  border-bottom: #FFFFFF 3px solid;
-}
+.nav .container .pull-right li:hover a {
+  color: #fff;
 
-#selected:hover {
-  text-shadow: 1px 1px 10px #fff;
-  font-weight: bolder;
-  border-bottom: #FFFFFF 3px solid;
-}*/
+  text-decoration: none;
+  text-shadow: 1px 1px 8px #000 !important;
+
+  border-bottom: none !important;
+
+  transition: border .25s, color .5s, background-color .5s, border-color .5s;
+}
 
 .jumbotron {
   position: relative;
@@ -84,15 +82,6 @@ body {
   height: 100%;
   background-size: 100% 100%;
 }
-
-/*.banner {
-  background-color: #666666;
-  position: relative;
-  top: 60px;
-
-
-  text-align: center;
-}*/
 
 .img_shadow {
   -webkit-filter: drop-shadow(0px 0px 5px #000);
