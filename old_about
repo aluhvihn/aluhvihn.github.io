@@ -12,10 +12,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   </head>
+  
 
-
-	<body>
-
+  <body>
     <div id="navigation">
     <!-- Insert Navigation Bar -->
     </div>
@@ -25,8 +24,8 @@
       <div class="container">
         <ul class="pull-left">
           <li><a href="index.html">home</a></li>
-          <li><a href="about.html">about me</a></li>
-          <li><a href="resume.html" id="selected">resume</a></li>
+          <li><a href="about.html" id="selected">about me</a></li>
+          <li><a href="resume.html">resume</a></li>
         </ul>
       </div>
     </div> -->
@@ -38,19 +37,33 @@
       </div>
     </div> -->
 
-    <!-- MY RESUME -->
+    <!-- ABOUT CONTENT -->
 
-    <object data="objects/Resume.pdf" type="application/pdf" width="100%" height="1080">
- 
-      <p>You don't have a PDF plugin for this browser.
-      You can click <a href="objects/Resume.pdf">here</a></p> to download the PDF file.
-      
-    </object>
+    <!-- BANNER -->
+    <div class="banner">
+    	<h1>Alvin A. Lim</h1>
+      <!-- Original: 410x405 -->
+    	<img src="images/myface.png" class="img_shadow" alt="Alvin A Lim" width="205" height="203"title="Alvin A. Lim">
+    </div>
 
-    <!-- <iframe src="https://docs.google.com/file/d/0B5__weEgXqZeSmJmSWg2VE93dTg/preview" width="100%" height="1080"></iframe> -->
-
+    <div id="about" class="container">
+      <h2>About Me</h2>
+      <p>
+        My name is Alvin Lim and I am currently an undergraduate student at the <a href="http://www.ucla.edu/">University of California, Los Angeles</a>, where I am studying <a href="http://www.cs.ucla.edu/academics/undergraduate-program">Computer Science</a>.<br>
+        <br>
+        Feel free to contact me at:
+        <br>
+        <address>
+          <strong>Phone:</strong><br>
+          (310)947-4611<br>
+          <br>
+          <strong>Email:</strong><br>
+          <a href="mailto:alvin.lim@engineering.ucla.edu">alvin.lim@engineering.ucla.edu</a>
+        </address>
+      </p>
+    </div>
   </body>
-  
+
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
