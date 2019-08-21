@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 
 body {
-  background-color: #AAAAAA !important;
+  background-color: #bfbfbf !important;
   font-family: 'Ubuntu' !important;
 }
 
@@ -27,7 +27,7 @@ body {
 .nav a {
   color: #fff;
 
-  font-size: 20px;
+  font-size: 2rem;
   text-transform: lowercase;
   text-shadow: 1px 1px 8px #330000;
 
@@ -63,13 +63,13 @@ body {
   position: relative;
   top: 40px;
 
-  background-color: #AAAAAA !important;
+  background-color: #bfbfbf !important;
 }
 
 .jumbotron .container {
   color: #fff;
 
-  font-size: 48px;
+  font-size: 4rem;
   font-weight: bolder;
   text-shadow: 1px 1px 10px #000;
 
