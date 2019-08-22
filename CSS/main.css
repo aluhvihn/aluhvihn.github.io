@@ -48,7 +48,7 @@ body {
   transition: border .25s, color .5s, background-color .5s, border-color .5s;
 }
 
-.nav .container .pull-right li:hover a {
+/*.nav .container .pull-right li:hover a {
   color: #fff;
 
   text-decoration: none;
@@ -57,7 +57,7 @@ body {
   border-bottom: none !important;
 
   transition: border .25s, color .5s, background-color .5s, border-color .5s;
-}
+}*/
 
 .jumbotron {
   position: relative;
